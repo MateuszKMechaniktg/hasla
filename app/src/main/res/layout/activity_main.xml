@@ -14,36 +14,53 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Podaj email:"/>
+
     <EditText
-        android:textSize="50px"
+        android:hint="Email"
+        android:id="@+id/email"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:textSize="50px" />
     <TextView
         android:textSize="60px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Podaj hasło:"/>
+
     <EditText
-        android:textSize="50px"
+        android:id="@+id/haslo"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword"
+        android:textSize="50px" />
     <TextView
+        android:hint="Hasło"
         android:textSize="60px"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Potwierdź hasło:"/>
+
     <EditText
-        android:textSize="50px"
+        android:id="@+id/potwierdz"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"/>
+        android:inputType="textPassword"
+        android:textSize="50px" />
 
     <Button
-        android:textSize="50px"
+        android:hint="Potwierdź hasło"
+        android:id="@+id/sprawdz"
         android:layout_width="164dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:text="Sprawdź" />
+        android:text="Zatwierdź"
+        android:textSize="50px" />
+
+    <TextView
+        android:id="@+id/wiadomosc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="60px" />
 
 </LinearLayout>
